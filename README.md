@@ -117,6 +117,24 @@ $ python3 runtimes.py --max_x=22
 ```
 and copy/paste the resulting table into this README file below this line.
 
+| runtimes for timsort | runtimes for merge_sorted|
+|     4.73E-06      |        4.19E-06        |
+|     2.77E-06      |        1.15E-05        |
+|     2.67E-06      |        1.64E-05        |
+|     3.24E-06      |        3.64E-05        |
+|     4.52E-06      |        7.86E-05        |
+|     7.67E-06      |        1.45E-04        |
+|     1.65E-05      |        3.90E-04        |
+|     2.69E-05      |        8.44E-04        |
+|     6.00E-05      |        1.85E-03        |
+|     1.33E-04      |        3.95E-03        |
+|     3.07E-04      |        8.78E-03        |
+|     6.50E-04      |        1.95E-02        |
+|     1.45E-03      |        4.25E-02        |
+|     3.12E-03      |        9.21E-02        |
+|     7.10E-03      |        2.00E-01        |
+|     1.45E-02      |        3.08E-01        |
+|     3.33E-02      |        7.86E-01        |
 <!-- add the table here -->
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
